@@ -1,0 +1,20 @@
+.highlighted {
+  background-color: #e4ed36;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+#output {
+  height: 40px;
+  background-color: black;
+  font-size: 24px;
+  color: white;
+}
+
+#form {
+  display: block;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 3px;
+}
