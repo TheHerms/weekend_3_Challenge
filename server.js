@@ -34,6 +34,7 @@ app.post('/equal', function(req, res) {
   });
 app.get('/solution', function(req, res){
   hitReturn += '';
+  console.log(hitReturn);
   res.send(hitReturn);
 
 });
