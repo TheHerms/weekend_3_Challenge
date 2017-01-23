@@ -5,11 +5,7 @@ $(document).ready(function(){
      event.preventDefault();
 
      operator = $(this).attr('id')
-     if($(this).addClass('highlighted')) {
-       $(this).toggleClass('highlighted');
-     }else{
-       $('.highlighted').removeClass('highlighted');
-       $(this).toggleClass('highlighted');
+
      }
    });
 
@@ -19,7 +15,6 @@ $(document).ready(function(){
    });
 
    $('#clear').on('click', function(){
-     $('.highlighted').removeClass('highlighted');
      $('#output').text(' ');
    })
 
